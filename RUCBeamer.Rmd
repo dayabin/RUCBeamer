@@ -1,0 +1,25 @@
+---
+title: "RUCBeamer"
+subtitle: ""
+author: Yabin Da
+date: "`r Sys.Date()`"
+institute: \normalsize School of Agricultural Economics and Rural Development
+fontsize: 10pt
+output:
+ beamer_presentation:
+    template: C:/work/RUCBeamer/RUCBeamer/RUCTemplate.tex
+    keep_tex: true
+    slide_level: 3
+make149: true
+
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+<!-- Note that in the YAML, change the template path to the path in your local machine. Also, to use your own logo (title graphic), go to the RUCTemplate.tex file, search for "\titlegraphic" and change the path there into the logo path on your local machine. --> 
+
+
